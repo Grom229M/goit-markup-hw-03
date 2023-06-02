@@ -286,10 +286,6 @@ h1 {
   width: calc((100% - 72px) / 4);
 }
 
-.item-strategy {
-  padding: 0;
-}
-
 .skills-title {
   font-style: normal;
   font-weight: 500;
