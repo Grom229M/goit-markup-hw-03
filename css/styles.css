@@ -20,7 +20,16 @@ img {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 p,
@@ -185,6 +194,8 @@ body {
 .hero {
   background: #2e2f42;
   padding: 188px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .container-hero {
@@ -194,7 +205,9 @@ body {
 
 .hero-title {
   max-width: 496px;
+  margin: 0 auto;
   margin-bottom: 48px;
+  min-width: 496px;
 }
 
 /**-------footer-----*/
@@ -256,6 +269,7 @@ h1 {
 
 .list {
   list-style: none;
+  padding-left: 0;
 }
 
 .list-skills {
@@ -351,6 +365,7 @@ h1 {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
+  padding-left: 0;
 }
 
 .team-title-second {
