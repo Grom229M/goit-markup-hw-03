@@ -194,6 +194,7 @@ body {
 
 .hero-title {
   max-width: 496px;
+  margin-bottom: 48px;
 }
 
 /**-------footer-----*/
@@ -268,7 +269,7 @@ h1 {
 }
 
 .skills-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .item-strategy {
